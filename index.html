@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaping Our AI Future | NCE Product Marketing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style-corporate.css">
+</head>
+
+<body>
+    <div class="gradient-background"></div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo-container">
+                <svg class="logo" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" fill="#0050A0" />
+                    <text x="12" y="27" fill="white" font-size="20" font-weight="bold" font-family="Inter">A</text>
+                    <text x="45" y="25" fill="#0050A0" font-size="16" font-weight="600" font-family="Inter">Air</text>
+                    <text x="72" y="25" fill="#E4002B" font-size="16" font-weight="600"
+                        font-family="Inter">Liquide</text>
+                </svg>
+            </div>
+            <div class="team-badge">NCE Cluster Product Marketing</div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content" id="surveyForm">
+            <div class="title-section">
+                <span class="eyebrow">AI ROADMAP 2026</span>
+                <h1 class="main-title">Shaping Our AI Future</h1>
+                <p class="subtitle">Before Friday's session, help me understand what matters most to you.</p>
+                <p class="host">Hosted by <strong>Byunghui Yoo</strong></p>
+            </div>
+
+            <form id="aiSurvey" class="survey-form">
+                <!-- Question 1 -->
+                <div class="question-card">
+                    <div class="question-header">
+                        <span class="question-number">01</span>
+                        <span class="required-badge">Required</span>
+                    </div>
+                    <label class="question-label" for="q1">
+                        In your current role, what is your <strong>biggest operational pain point</strong>?
+                    </label>
+                    <p class="question-hint">Something that takes too much time, is frustrating, or blocks you.
+                        <em>Don't limit yourself to what you think is technically possible — imagine the ideal
+                            solution.</em>
+                    </p>
+                    <textarea id="q1" name="pain_point" class="input-field" rows="4"
+                        placeholder="Example: I spend 3+ hours every week manually extracting data from PDF contracts into spreadsheets. In an ideal world, this would happen automatically..."
+                        required></textarea>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="question-card">
+                    <div class="question-header">
+                        <span class="question-number">02</span>
+                        <span class="required-badge">Required</span>
+                    </div>
+                    <label class="question-label" for="q2">
+                        Beyond efficiency, what do you think you could do to create <strong>significant value</strong>
+                        for the company?
+                    </label>
+                    <p class="question-hint">Could be P&L impact, customer experience, or new opportunities. <em>Dream
+                            big — if technology were not a constraint, what would you build?</em></p>
+                    <textarea id="q2" name="value_creation" class="input-field" rows="4"
+                        placeholder="Example: If I had an AI that could scan the entire market and identify hidden prospects, I could double our pipeline..."
+                        required></textarea>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="question-card optional">
+                    <div class="question-header">
+                        <span class="question-number">03</span>
+                        <span class="optional-badge">Optional</span>
+                    </div>
+                    <label class="question-label" for="q3">
+                        What are your <strong>personal interests</strong> outside of work?
+                    </label>
+                    <p class="question-hint">For a small fun demo I'm preparing. 😊</p>
+                    <textarea id="q3" name="personal_interests" class="input-field" rows="3"
+                        placeholder="Example: I love traveling to new countries, learning languages, or hiking in the mountains..."></textarea>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="question-card optional">
+                    <div class="question-header">
+                        <span class="question-number">04</span>
+                        <span class="optional-badge">Optional</span>
+                    </div>
+                    <label class="question-label" for="q4">
+                        What kind of <strong>food</strong> do you like and why?
+                    </label>
+                    <p class="question-hint">For the offsite dinner planning! 🍽️</p>
+                    <textarea id="q4" name="food_preferences" class="input-field" rows="3"
+                        placeholder="Example: I enjoy Italian cuisine because of the fresh ingredients, or I prefer spicy Asian food..."></textarea>
+                </div>
+
+                <!-- Name Field -->
+                <div class="question-card name-card">
+                    <div class="question-header">
+                        <span class="question-number">✦</span>
+                    </div>
+                    <label class="question-label" for="name">
+                        Your Name
+                    </label>
+                    <input type="text" id="name" name="respondent_name" class="input-field input-text"
+                        placeholder="Enter your name..." required>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="submit-section">
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        <span class="btn-text">Submit My Answers</span>
+                        <span class="btn-icon">→</span>
+                    </button>
+                    <p class="privacy-note">Your responses will only be used for Friday's session.</p>
+                </div>
+            </form>
+        </main>
+
+        <!-- Thank You Screen (Hidden by default) -->
+        <div class="thank-you-screen" id="thankYouScreen">
+            <div class="success-icon">✓</div>
+            <h2 class="thank-you-title">Thank You!</h2>
+            <p class="thank-you-message">Your input has been recorded.</p>
+            <p class="thank-you-teaser">See you Friday. <strong>Looking forward to our session!</strong></p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>© 2026 NCE Cluster Product Marketing | AI Roadmap Initiative</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

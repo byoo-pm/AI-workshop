@@ -1,0 +1,1251 @@
+--- Slide 1: Product Marketing team meeting ---
+Product Marketing team meeting
+06.02.2026
+Cover page - friendly printing
+
+--- Slide 2: Agenda (LINK) ---
+Agenda (LINK)
+‹#›
+
+--- Slide 3: Florian ---
+Florian
+Safety
+‹#›
+
+--- Slide 4: Safety 
+Helium: important gas for Industries, Healthcare and Semiconductor ---
+‹#›
+Liquid Helium is the only cost-effective way to achieve near absolute zero (4.2 Kelvin or -269°C) economically
+
+It is critical for MRI and NMR, with no commercial substitute below ten Kelvin.
+
+Logistics are vital due to "boil-off" in specialized, time-sensitive shipping containers.
+
+Supply is a volatile byproduct of specific Natural Gas (LNG) geological formations.
+
+Key markets include Healthcare (MRI), Semiconductors, R&D, Space Industry, Balloons, Cutting & Welding, …
+
+
+Safety 
+Helium: important gas for Industries, Healthcare and Semiconductor
+
+--- Slide 5: Safety 
+How an MRI works ---
+‹#›
+Safety 
+How an MRI works
+Magnetic Resonance Imaging (MRI) creates 2D or 3D images of the body.
+A powerful, stable magnetic field is required for this process.
+Liquid helium is necessary to cool superconducting magnets below 10 Kelvin.
+The loss of superconductivity is called a 'quench'.
+
+--- Slide 6: Safety 
+Helium: Critical, Constrained, Complex ---
+‹#›
+Safety 
+Helium: Critical, Constrained, Complex
+A rare structural failure occurred on July 16, 2025, in a Chinese hospital's MRI scanner.
+
+The Siemens MAGNETOM Skyra 3.0T machine experienced a loud bang and physical damage.
+
+This was a unique structural failure, not a typical superconducting magnet "quench."
+
+Siemens issued a recall notice on August 20, 2025, following the investigation.
+
+The incident emphasizes the need for rigorous safety and maintenance protocols.
+
+1 liter of Liquid Helium expands to roughly 700-750 liters of gas.
+
+
+
+--- Slide 7: Safety 
+Helium: Critical, Constrained, Complex ---
+‹#›
+Safety 
+Helium: Critical, Constrained, Complex
+
+--- Slide 8:  ---
+HR
+‹#›
+
+--- Slide 9: No Title ---
+‹#›
+Performance Review Process
+Performance Review Meetings: until February 15, 2026
+
+Learning & Development
+Start Self-Enrollment Campaign 2026: until February 21, 2026
+Learning offer: during the performance review discussion you will have with your manager, it will enable you to agree on necessary learning contents you should register to for next year
+
+Training plan
+
+What else?
+Sustainability: Use the NCE process // App Beta-Testing
+HR: Yearly appraisal, 2026 goals, Vacations
+HR: Learning and Development → Learning offer &  Self-Enrollment Campaign
+
+
+--- Slide 10: We are complete again (from 02.26) – Welcome to the team, Fabien! ---
+We are complete again (from 02.26) – Welcome to the team, Fabien!
+‹#›
+… and Peter thanks a lot for the good work all the years. Good luck on your new way!
+PARTS
+TEAM 
+
+--- Slide 11: About my scope : Fabien Coursimault 
+ ---
+‹#›
+About my scope : Fabien Coursimault 
+
+About Me
+			51 year old, living around Freiburg (CH) ((based in Switzerland since 2002)
+Married / 2 children (20 and 17)
+
+Work Experience 	Since 14 years Carbagas (Project Manager Customer Gas Supply)
+			TCL Level 1 Cryogenics Equipment
+			But first contact with Air Liquide 1997 (Research center France)
+
+Educational background  Physic engineer / Physicist (PhD.)  supported by Air LIquide
+
+Passions and hobbies	running, road running, but also, for the past two years, short trail     
+My history by Carbagas
+Project Manager (2012-2017) : industrial, cryogenics and medical gas supply system
+
+
+Project Manager “cold chain” (2017-2024) :  activities relating to refrigerated transport and cryogenics (liquid nitrogen refrigeration / dry ice). Special projects / Innovation.
+
+CO2 sourcing. Incinerator 
+Technical Onwer GIU (Gas Identification Unit)   
+My challenge for 2026
+Successfully integrate myself into your team quickly.
+
+--- Slide 12:  ---
+‹#›
+Looking back  at 2025
+& ahead in 2026 for NCE
+
+--- Slide 13: Safety 2025 
+We improved our safety performance, in line with the Group trend ---
+Safety 2025 
+We improved our safety performance, in line with the Group trend
+
+BETTER than 2024 on ALL indicators 
+FR
+LTA and nLTA #
+Serious RSE 
+Serious PSE 
+
+PREPARED FOR NEXT LEVEL 
+Fatigue & distraction
+IMS GP foundation 
+
+
+
+
+7* serious Road Safety Events vs 10 in 2024
+*whereof 6 preventable
+1 serious Process Safety Events vs 11 in 2024
+
+100 %
+Implementation of fatigue & distraction systems in heavy vehicles
+100 %
+Compliance with IMS_GP foundation requirements for all GPs in NCE (in total 242 GPs)
+
+--- Slide 14: Industrial Operations 2025 
+We just established IO backbone in NCE to create value from Ops ---
+Industrial Operations 2025 
+We just established IO backbone in NCE to create value from Ops
+Improvements
+OFR  above the group target 92.6% 
+PG Productivity
+Watch points 
+Reliability (L1/L2): With 45 ytd vs 43 ytd-2024
+Low load from customer impacting plant efficiencies
+Major issue 
+APSA O2 Isover in Romania  
+2026
+
+--- Slide 15: Business / Finance 2025
+Robust underlying financials aligned with expectations ---
+In m€ | FY 24 | FY 25 | Comp.* % YTD | Comp vs Target
+Sales | 3.905 | 3.856 | <3.3%> | <4.2%>
+GM | 1.341 | 1399 | +5.0% | <1.1%>
+G&A | <293> | <289> | <0.4%> | <4.7%>
+PEX | <485> | <501> | +3.5% | +0
+D&A | <364> | <370> | +1.7% | <1.9%>
+OIR | 724 | 729 | +1.6% | <4.8%>
+GM/sales ex EN | 34.3% | 37.2% | +290b | +120bp
+OIR/Sales ex EN | 18.5% | 19.4% | +90bp | +10bp
+* excl. EN, FX, scope | ** excl. EN, FX, scope, one-offs
+Business / Finance 2025
+Robust underlying financials aligned with expectations
+Poor Daily sales <3.5%>, with low LI, IM & EL, flat HC while H2E +50% 
+Strong IM PT in deflationary environment with decreasing P+ trend. Well above RF3 but strong pressure ! 
+Overall Cluster efficiencies YTD @129% of our target: delivering !
+Watch point Cash: poor landing and strongly under watch. STRONG FOCUS needed to finance our capex needs
+G&A <0.4%>, underlying +1.6%, impact ALLIANCE visible, we reached our PEX Target YTD
+
+--- Slide 16: Business / Finance 2025
+Volumes have deteriorated, and 2026 outlook doesn’t look much better ---
+Business / Finance 2025
+Volumes have deteriorated, and 2026 outlook doesn’t look much better
+daily | Q3 % | Q4 % | T26 %
+Bulk | 0.0% | <3.4%> | +2.1%
+PG | <2.0%> | <2.5%> | +2.1%
+Q3 % | Q4 % | T26 %
+AG | +1.5% | <4.4%> | <2.5%>
+HyCO | <5.9%> | <6.6%> | <8.9%>
+IM Passthrough
+Energy Contribution
+
+--- Slide 17: Overall 2025 
+6 months NCE, we face headwinds, but managed what we can control ---
+Challenges and low sides 
+Dependency on “old industries”,Slowdown of Energy Transition
+MIXED Reliability in our ops better cost control but still & IMPACT for CUSTOMER
+Challenge in balance volumes and price
+Cash generation/management
+Multiple changes at the same time,internal complexities 
+= Areas to improve
+
+Overall 2025 
+6 months NCE, we face headwinds, but managed what we can control
+Successes & Strengths 
+Safety performance improvement
+Passthrough, EC and efficiencies
+Culture of Performance strengthening : costs - PEX control
+Engaged workforce & resilience in the ADAPT context 
+NCE in place and in MOTION : benefits of mutualization already visible
+= Reasons to remain optimistic
+
+--- Slide 18: Overall 2026 
+We will master our fundamentals, deliver incl. “Adapt”, go “Beyond” ---
+Master our fundamentals
+Safety :safe working environment (Frequency rate < 0.85)
+Customer : proper asset loading, max renewals (LI) &  min Churn (IM), develop growth projects, accelerate M&A
+Employees : Let’s keep engagement high (= above 7.5)
+Overall 2026 
+We will master our fundamentals, deliver incl. “Adapt”, go “Beyond”
+Deliver 2026 commitments
+OI/S : +170bp 
+Efficiency & Reliability : optimize processes and simplify : total efficiencies: 70m€ let’s execute our projects without overrun, 
+Energy : energy + carbon contribution of 167m€ & reduce the energy bill (CISAF, rebate) by -15 to -30m€
+Prepare the future
+Transformation : Let’s deliver Adapt, Align, GBS …without “breaking the machine”
+Let’s prepare the future, the next Chapter of AL “Beyond” 
+
+--- Slide 19: 2025 OIVA ---
+2025 OIVA
+
+--- Slide 20: Target 2026 main hypothesis & latest revised figures
+No major change in the outlook but TIMING in DACH is key ---
+Target 2026 main hypothesis & latest revised figures
+No major change in the outlook but TIMING in DACH is key
+‹#›
+Cluster/GBU economic & geopolitical environment
+GDP driven by governmental consumption while private consumption remains soft
+IP forecast softening in RF3 with still some uncertainties (e.g. chip crisis)
+Inflation remains somehow higher driven by Turkey
+Elevated risk of Bankruptcy 
+ACT 24 | RF2 25 | RF3 25 | T 26
+GDP | 0.8% | 1.1% | 1.1% | 1.5%
+IP | <1.6%> | 0.7% | 0.5% | 1.6%
+Inflation | 4.4% | 3.5% | 3.5% | 2.8%
+Latest Update
+RF4 25 | E 26
+GDP | 1.3% | 1.5%
+IP | 0.6% | 1.5%
+Inflation | 3.5% | 2.8%
+
+--- Slide 21: IM Target 2026 OIVA : Ratio improvement resulting from efficiencies while preparing with higher volumes for the future step-up ---
+IM Target 2026 OIVA : Ratio improvement resulting from efficiencies while preparing with higher volumes for the future step-up
+‹#›
+2025 ended with +2.7m€ higher sales & OIR +3.0m€ (+10bp)
+Target includes 3.4m€ OIR from He TP change (shown under other costs, to be re-allocated)
+
+--- Slide 22: CG IM Vergleich Cluster 2025 ---
+CG IM Vergleich Cluster 2025
+‹#›
+IM OIR/Sales and PT per entity (NCE)
+IM: 
++770 bps growth (2025 vs 2023) allows CG to be one of the more profitable IM business of the NCE cluster.  
+Price: 3.1m€
+Infl.:   4.6m€
+
+--- Slide 23: OIR/s ambition by country: being at minimum @20% and improving vs. LY (exception Bulgaria due to loss of SOL contract) ---
+OIR/s ambition by country: being at minimum @20% and improving vs. LY (exception Bulgaria due to loss of SOL contract)
+
+--- Slide 24: Signed business in 2025 well below LY (BD <13%> vs LY, Spot <6%>)
+Churn management will be key to achieve our volume ambition ---
+Signed business in 2025 well below LY (BD <13%> vs LY, Spot <6%>)
+Churn management will be key to achieve our volume ambition
+‹#›
+T2026
+Signed 2025
+LINK
+LINK
+
+--- Slide 25:  ---
+Retrospective 2025
+Focus in 2026
+Personal sharing
+‹#›
+
+--- Slide 26: Roadmap of 2026 ---
+Roadmap of 2026
+‹#›
+For all the teams: 
+Securing Target 2026 Balancing Volume & Pricing
+3 identified levers to do so : limit churn,  push for growth and further smart pricing actions (retention in bulk leveraging new flexible clauses, further criteria to use for Price campaign in PG).  
+Medgas integration
+Align (expansion and diverses other streams)
+Continue to foster collaboration within the team, with entities, other cluster teams, SWE and WBL. 
+Accelerate on AI usage
+
+What did I learn in 2025?
+Organisation changes are heavy, I dedicated a very significant amount of my time in H1 2025 to design the organisation and solve HR topics >> It was worth it. Because before we are an organization, we are people—each with our own talents and strengths, but united by a common drive to progress and collaborate.
+H2 2025: the relief ! Now we are starting and we were able to bring everything together: 
+Full deployment of monthly business performance steerco > positive feedback so far
+Good collaboration within the teams and in our own direct team (interactions between you guys!)
+Impression to bring added value to the entity from a strategic perspective
+Still missing a bit the more operational business topics 
+
+What are the challenges I will face in 2026?
+Find the right balance between products/ volumes >> I am not used to it ! or it is far far away
+Learn to say no more often and be able to better protect my agenda, I should be the “owner” of my time
+Continue to progress thanks to personal coaching (Korn Ferry program)
+Feel confident, stay pragmatic, close to the “field”
+Protect my work-life balance (kids are only little once in a lifetime) 
+Amandine
+
+--- Slide 27: What is Bulk PM Team Now Busy With?  ---
+What is Bulk PM Team Now Busy With? 
+‹#›
+Focus 2025
+Roadmap 2026
+New standard Bulk contract templates
+
+
+LIN/LOX Formulas 
+New method of energy allocation in kWh/m3
+New Price escalation formulas for LIN/LOX 
+Marginal cost concept
+C2P Bulk - cost quality improvement
+
+
+LCO2 contract templates and pricing
+Basic & Advanced Service level 
+
+
+
+Competition Pricing Tools
+Calculation of landed cost and expected price of competitor knowing their ASUs
+Shortage management 
+Standard E2E procedure
+Customer Criticity lists in ALTO
+
+
+
+Asset Stewardship, a.k.a. LOAD BABY LOAD!
+All basins launched
+
+
+
+Medgas Integration 
+
+
+Excellence topics
+CPQ Bulk, AODOCs Workflow and Ironclad 
+SAP contract database
+Service codes audit
+Minibulk Cluster Study
+Introduction training Bulk
+60% → 80%
+!
+
+--- Slide 28: What is SG PM Team Now Busy With?  ---
+Business
+Global Siemens Tender LHe
+Pricing Rares for Osram
+
+
+SG Topics 
+N20 Supply Chain - Ijsfabriek
+SF6 and F2 Supply Chain - Solvay
+
+
+
+Know-How transfer & team
+Transfer from Ulrich
+ Starting working with the team
+
+HR
+Hiring process for 2. PM
+Starting Hiring 3. PM in UK & integration in NCE Cluster Team
+What is SG PM Team Now Busy With? 
+‹#›
+Focus 2025
+Roadmap 2026
+Shortage management 
+Standard E2E procedure
+Customer Criticity lists in ALTO
+
+
+
+SG Europe
+Launch referential CTO
+Pricing of CTOs
+
+
+Roadmap 2026-2030
+Helium, Rares & SG
+
+HR
+Complete the team for SG
+Onboarding of Jennifer and the 3. PM
+PPS for Lutz
+Training PG product marketing for Jennifer & 3. PM
+!
+
+--- Slide 29: What is H2 PM Now Busy With?  ---
+Strategy
+Taking over the 3rd party H2 sourcing from the Product Management team
+Setting the right sourcing strategy in small H2 countries (Austria, Denmark, Poland)
+LH2 value for IM/EL
+New GH2 trailers strategy
+
+
+Tools
+E2E sourcing costs dashboard (aligned with contracts)
+Transport inefficiencies tool for Swap customers
+Right trailer selection tool
+
+
+Business
+Signature of new contract for RFNBO H2 with Ceratizit from 2027 (+360k€/y OIR)
+Elaboration of the contract proposal to Lightera customer in Denmark (300-550 k€/y of additional OIR)
+Negotiation for a new RFNBO source in Luxembourg 
+
+
+Assets
+Lift of the 200b trailer purchase ban
+Green light to qualify cheaper 300b trailers 
+What is H2 PM Now Busy With? 
+‹#›
+Focus 2025
+Roadmap 2026
+Strategy
+Complete and implement the H2 strategy UK
+Prepare the mid-term strategy based on business evolution (REDIII, H2 backbone)
+
+
+
+Tools
+Upgrade the sourcing costs dashboard to include it in Power BI
+Add the customer profitability dashboard
+
+
+
+Business
+
+
+
+
+Assets
+Complete the qualification of 300b type 2
+Develop the new large 300b type 4 (mainly H2E)
+
+--- Slide 30: No Title ---
+And optimize our RTU landscape
+
+--- Slide 31: Roadmap of 2026 ---
+Roadmap of 2026
+‹#›
+For CSE+PL teams (and Marek): 
+BG+RO Adapt (not only new scope for ppl but the same tools implementation),
+ALign PL implementation with CSE countries for data preparation,
+Asset Stewardship (Poland, BG+RO cross border, TR Polatli loading) + ‘Go East’ + competition tool implementation
+E2E Profitability BOS tool (maybe with the same allocation key for CSE+PL?)
+PT/Vol balance with PG loading for PL and RO new FP’s. 
+
+What did I learn in 2025?
+Suddenly, I stopped putting out fires myself and started teaching others how to build fire prevention systems.
+I noticed that my old local role was pulling me back into daily operations. I’ve since learned to balance my Polish market expertise with a broader focus, ensuring I provide strategic value to the entire Cluster, not just my home ground (it will be still one of the biggest challenges in 2026…).
+I focused on being a supportive partner (buddy) rather than just a boss. I think that in a complex team structure, you can't just give orders. Instead, I’m trying build trust and influence by giving enough time to others (sharing my expertise).
+
+What are the challenges I will face in 2026?
+Move more ! sitting too much … 
+Get more ‘real’ Market perspective (spend more time on-site with Sales Team on quarterly meetings, not only Poland).
+Start bringing proposals for profitability improvement (the most difficult from helicopter view).
+Establish direct lines of communication with local Product Marketers (outside CSE+PL) to identify and replicate successful case studies across geographies (“Best Practice Factory”) with focus of ‘small wins’.
+Economic situation with competition volume focus.
+
+Marek
+
+--- Slide 32: NCE PG Product Marketing team ---
+NCE PG Product Marketing team
+‹#›
+2026 priorities
+2025 achievements
+PEOPLE
+We successfully merged teams and created a high collaborating PG Product Marketing community 
+
+We will strengthen the relationship and capitalize on MUTUALIZED knowledges to perform  
+
+Business
+We embarked the organization in the mindshift from GM/Sales to GM/asset
+KPI automation will enable action plan definition, and monitoring!
+AL GB prepared for SAP expansion, addressing utmost complexity with ALign team support
+We will manage the transition phase in the UK, While preparing for the last SAP expansion wave in 2027 and starting with Poland
+Smart Pricing deployment accelerated, with different maturities across the board.
+Each country will progress from home-made script based smart pricing to Machine Learning and and value based pricing.
+PORTFOLIO
+We initiate STANDARDIZATION 1) in the way we look at our 15 PG Portfolio and 2) in our core portfolio management processes
+
+we will leverage on MUTUALIZATION to accelerate Portfolio SIMPLIFICATION (#Sudoku & Masterfiles) and roll-out key standard processes  
+
+We closed Altop/Exeltop Conversion,
+moved on with the QLIXBI exit,
+accelerated the re-launch of the DUAL23
+and launched PG Sustainable initiative!
+We will set align and optimize RTU strategy &
+define a our cluster 300 bar vision
+
+
+--- Slide 33: No Title ---
+‹#›
+Price Engine Achievements 2025
+Machine Learning
+UX improvement
+Prices per C0 Unit in Price Engine and undo modification
+Grouping Materials functionality is been implemented in Price Engine
+Price Guidance Reset 
+Price Guidance Reset in Nordics, Benelux and Iberia:
+Price Guidance Methodology explained and applied
+New turnover and volume segmentations have been built
+New Price Guidances have been created and loaded into the Price Engine and are available for modification by pricing managers
+BENELUX and Nordics have already their price guidances in SF (CPQ) and Anaplan (Peer Pricing)
+
+Price Guidance RTU:
+RTU POC was finalized 
+RTU Price Guidance was tested in CPQ Pre Prod successfully
+Price Guidance RTU implemented for BELUX in CPQ
+
+
+
+Machine Learning Implementation for Gas in Germany:
+ML recommended prices for bottom, target and top prices in Price Engine
+ML price matrices tested in UAT successfully
+ML recommendations implementation for two SR per market only ML proposals were applied in german campaign, but no proposal is below standard inflation increase 
+88% of the final implemented ML proposals are higher than previous proposals
+P+ 51k€ vs. previous proposals
+
+--- Slide 34: No Title ---
+‹#›
+Price Engine Roadmap 2026
+Priorities 1:
+Geographic Segmentation Germany Price Engine → Next campaign April 2026 
+Norway Price Guidance Reset in Price Engine
+Pushing Iberia Price Guidance from Price Engine to SF
+Price Engine -> Anaplan direct ETL
+Price Engine -> Salesforce/CPQ direct ETL
+Price Guidance Reset for Gas Italy + Switzerland + UK + Medgas (Austria + Poland End of 2026/beginning 2027)
+Price Degressivity function for France
+Priorities 2:
+RTU Price Guidance implementation and scale up in Price Engine
+FR  Price Matrices/ Guidances (different set of bottom price) for NEW, GAIN, RENEWAL etc.
+Priorities 3 :
+PG Machine Learning Scale Up to other countries
+Evolutions:  graph customization, min price mass update
+
+
+
+
+
+
+--- Slide 35: C2P Achievements 2025 ---
+C2P Achievements 2025
+C2P v5 evolution implemented
+(Re-)Onboarding
+(Re-)Onboarding & Training various European Teams:
+Training KU & Training the Bulk/PG Product Marketers & Pricing Teams owning the (monthly or yearly) cost data
+Sales Teams able to understand the C2P KPI’s, to navigate in the C2P report,  to follow up results and being able to identify actions which lead to growth of the profitability of their portfolio
+New training materials constructed and provided
+C2P Target Setting re-implemented in Bonus schemes
+
+Monthly variable Cost updates for Primary Bulk Sources! 
+Previous cost model with all-year long flat and stable cost of gas for Bulk Sources has been abandoned -> Sales and Costs are aligned.
+New C2P cost model for Bulk Sources is based on a Monthly variable cost, based on the underlying Energy cost
+With a correlation between the Variable Bulk Source cost and the Energy indexed Bulk Molecule Sales Price, depending on the Energy index definition in the Sales Contract, allowing up to three different Bulk Unit Costs values (based on YAH forward E, DAH spot E or Mix/PPA E).
+New KPI’s introduced in the C2P reports!
+Cost Inflation Impact and Indicative Passthrough Impact parameters
+New screens displaying the new KPI’s and the relation between these KPI’s and the delta C2P
+Algorithm Evolution
+New 2ndary PG Transport Cost formula developed!
+Improving C2P outcome, making the cost model better fit with the actual transportation costs
+Comes with a more transparent calculation methodology of the coefficients used in the algorithm
+Tested with all NCE entities
+
+--- Slide 36: C2P Roadmap 2026 ---
+C2P Roadmap 2026
+‹#›
+Priority #1 = ROBUSTIFICATION !
+Address systemic C2P data quality and calculation instability
+Cost Upload Governance process: reinforce local cost data ownership and comprehension + implement Salesforce evolution with Cost visualization and historization, allowing quick fix corrections by local data owner (Product Marketing/Pricing Teams) without intervention of DATA & AI
+Structured monthly verifications of C2P report output to create trust, including a formal "Reconciliation" mapping C2P calculation rules directly against GM/OIR/Sales Variance Analysis definitions.
+Address C2P performance issues in WAVE
+Deal with the slowness
+Architectural shift required: move heavy data calculations from the report side to the data cloud side, and work on the CDM by having C2P variable cost in the European CDM. This ensures that the "data cube" is processed before it ever reaches the sales rep's screen.
+Improve the visuals by avoiding data overload in the C2P report and reducing navigational complexity
+Priority #2 = EXPANSION !
+Prepare expansion to AL Austria, AL Poland, AL UK and also to MedGas
+Data preparation: scoping, mapping, grouping, IT accesses
+Cost Model Alignment 
+NEW by Q2 2026: MedGas Expansion
+NEW by Q3 2026: Country Expansion  
+Countries for C2P Expansion after 2027
+
+--- Slide 37: Roadmap of 2026 ---
+Roadmap of 2026
+‹#›
+C2P Pricing Solution priorities: 
+Hypercare - hypercare… Build Trust & Improve Outcomes by implementing Hypercare: master the cost data, clarifying price impact vs. price effect, cost inflation impact vs. Operations control cost inflation, and indicative passthrough vs. Operations control passthrough.
+Enhance Data Quality: Improve input data quality for costs and strengthen links with other databases (e.g., LED/ALTO).
+Streamline Business Process: Provide quick and easy access to historical monthly bulk cost data.
+Simplify Visuals: Simplify PowerBI visuals for C2P, shifting from data overload in tables to more impactful infographics.
+C2P Expansion: Simultaneously work on the C2P Expansion to MedGas, ALAustria, ALPoland, and ALUK, which includes gap analysis, scoping, data preparation, cost model alignment, and UAT.
+
+What did I learn in 2025?
+Team & Networking: Great experience being part of a new team, reconnecting with familiar faces (Lisa, Byunghui, Melanie), and meeting very interesting new colleagues from whom I can still learn.
+Pace vs. Stability: I am a fast learner, but need to moderate my ambition and slow the pace of new feature introduction to the C2P tool. I learned the hard way that the C2P tool's stability was lower than anticipated, making robustification the 1st priority
+Gemini Potential: Learned the fantastic capabilities of Gemini, I am planning to leverage it more in 2026
+
+What are the challenges I will face in 2026?
+Stakeholder Happiness & Trust: 
+Goal = to Prevent Amandine from getting any grey hair due to C2P and ensure that Paul Krafft is a happy stakeholder!
+Challenge = Building trust in the C2P outcome is crucial, especially as all Sales Teams now have C2P targets in their Bonus Schemes, which will inevitably lead to challenges (rightful or not).
+Resource Management: Find and retain human resource support on the DATA & AI side to handle the extensive workload. 
+Expand internal connectivity beyond my primary interactions (Bulk & PG Product Marketers / Pricing Leads) to the wider team + Connect with all local NCE organizations to establish the same level of effective interaction as with the former NEC entities
+Mario
+
+--- Slide 38: No Title ---
+
+--- Slide 39: No Title ---
+
+--- Slide 40: Change in Q1 2026 and Yearly appraisal
+
+For Managers : See email of Lucia “Performance Review 2025 - Important Guidelines for Managers” ---
+Change in Q1 2026 and Yearly appraisal
+
+For Managers : See email of Lucia “Performance Review 2025 - Important Guidelines for Managers”
+‹#›
+Close the loop
+
+--- Slide 41: Time to vote! ---
+Time to vote!
+‹#›
+Go to File
+Vote for Priorities
+Brainstorm Actions
+Rate by Impact/Effort
+Finalise Action Plan
+
+--- Slide 42: Actions ---
+Actions
+‹#›
+Linked to 1 specific position
+Benefit for the all team
+
+--- Slide 43: Action plan ---
+Action plan
+‹#›
+Priority | Selected Action | Responsible Action | Implementation Deadline
+Strategic review of Align impact for our team | Marek? Find the right contact? | One shot meeting
+Q1 2026
+Coordination with Digital Team incl. early consultation of our team | Melanie Pricing tool/ 
+Jörg Parts topics ? | Review on quarterly basis ??
+End of January 2026
+Clear alignment with Sales excellence team, monthly exchange (trainings, pricing actions, update on tools, etc..) | Amandine (to invite)
+Tobias > alignment churn (Split of tasks / commercial actions)
+Mario > C2P incentive follow-up
+Leo/Eliza for Price Campaign | Exchange on monthly basis ?
+February 2026
+Clear responsibility on CPQ (bulk, HG, IPG) | Elizaveta? | Decision to be taken with other teams
+End of January 2026
+Gescat European reference expert (one SPOC Bulk/PG ? to be trained by Aurélie and grant the access) | Leo | Decision to be taken
+End of January 2026
+
+--- Slide 44: No Title ---
+‹#›
+Next Steps
+
+Action | Date
+Communicate finalized team action plan to the entire team including next level manager. | February 15
+Managers to enter 1-2 actions in Peakon.and create an action plan. | February 15
+Let’s take action!
+Communicate action progress frequently and transparently with the team. | Continuous
+
+--- Slide 45: No Title ---
+Bulk H2 NCE
+This document and the information contained herein is l’Air Liquide S.A. or one of its affiliates’ property. The document is confidential business information and may furthermore contain confidential technical information. It is provided to certain employees of the Air Liquide Group for their internal use exclusively in the course of their employment. Any reproduction or disclosure of all or part of this document to third parties is prohibited without the express written consent of an authorized representative within the Air Liquide Group. If you have received this document by mistake, please immediately notify the sender and destroy the original message.
+THIS DOCUMENT IS CONFIDENTIAL RESTRICTED
+
+--- Slide 46: Agenda ---
+‹#›
+‹#›
+Agenda
+NCE H2 volumes in 2025
+
+Liquid H2 in the Europe Business
+
+Gaseous H2 trailers strategy
+
+Improvements
+
+--- Slide 47: NCE H2 volumes in 2025 ---
+NCE H2 volumes in 2025
+‹#›
+IM
+H2E
+NCE H2
+67,8 mSm3 (+4,0% vs LY)
+
+42,4 mSm3 (-7,7% vs LY)
+15,4 mSm3 (+60,2% vs LY)
+41,3 mSm3 (+1,1% vs LY)
+
+32,1 mSm3 (-11,7% vs LY)
+9,2 mSm3 (+104,7% vs LY)
+16,5 mSm3 (+12,0% vs LY)
+
+10,3 mSm3 (+7,3% vs LY)
+6,2 mSm3 (+20,9% vs LY)
+
+--- Slide 48: Current LH2 business in Europe and potential benefits ---
+Current LH2 business in Europe and potential benefits
+‹#›
+
+Business quite stable since 2022
+700-800 tons per year 
+8.6 m€ sales in 2024 (no significant evolution in 2025)
+13 customers (Tereos = 35% of European Volumes)
+
+
+Expected value from LH2 in 4 areas
+
+
+
+
+
+
+
+Business area extension
+Logistics gains
+Need of large autonomy
+Logistics strain relief
+
+--- Slide 49: Business area extension ---
+Business area extension
+‹#›
+AL GH2 source
+Competition GH2 source
+AL LH2 source
+Distances (km):
+200 bar GH2: 80 km
+300 bar GH2: 200 km
+LH2: 800 km
+
+Air Liquide H2 footprint
+Including competition
+In conclusion, the scope for expanding our business footprint by relying on LH2 logistics appears significantly limited.
+
+--- Slide 50: Leveraging on LH2 to lower logistics costs ---
+Leveraging on LH2 to lower logistics costs
+‹#›
+Medium and Large consumers:
+Logistics savings do not offset liquefaction overcosts
+
+Extra large customers (2 tpd):
+Logistics savings could offset liquefaction overcosts
+
+
+Very limited opportunities of identifying very large customers close to LH2 sources and far from gaseous ones 
++ Need to invest in LH2 tanks
+Industrial Merchant
+
+
+
+2 tpd corresponds to the size of HRSs for the heavy duty segment that the H2E WBL expects to supply in a few years. LH2 could decrease total landed costs for such very high customers depending on their distance from the sources.
+H2 Mobility
+
+Very limited opportunities of identifying very large customers close to LH2 sources and far from gaseous ones 
+Electronics
+
+--- Slide 51: Logistics strain relief ---
+Logistics strain relief
+‹#›
+
+
+
+Avg consumption = 55 kg/day
+
+13,4% of customers above 100 kg/day
+
+Typical IM customers do not reach 1 or 2 tpd
+Industrial Merchant
+
+
+1 or 2 tpd is the expected consumption of Heavy Duty HRSs 
+H2 Mobility
+
+
+Largest GH2 customers (ST Crolles) consumes 335 kd/day
+
+Typical EL customers do not reach 1 or 2 tpd
+Electronics
+
+
+1 tpd = more than 1 large GH2 trailer per day
+
+2 tpd = 3 large GH2 trailers per day
+High consumption
+
+
+80 - 100 km (or more) from the source 
+Distance
+Logistics strain 
+
+
+--- Slide 52: Need of large autonomy / continuity of supply ---
+Need of large autonomy / continuity of supply
+‹#›
+The large autonomy of LH2 tanks represents a value for EL customers
+
+ENHANCE would improve the reliability of the LH2 Supply in Europe
+
+In addition, the new 30 tpd liquefier of AP in Rozenbourg, should also contribute positively to the AL EL BCP in case of Waziers breakdown.
+
+--- Slide 53: Conclusion on LH2 ---
+Conclusion on LH2
+‹#›
+The current analysis indicates that investing in a larger H2 liquefier would not significantly benefit the IM/EL business lines. This is because IM and EL customers' H2 consumption levels are insufficient to take advantage of the increased payload offered by larger liquid hydrogen trailers. Conversely, relocating the European LH2 source to Rotterdam would not adversely affect the existing LH2 operations of the IM and EL business lines.
+
+
+In order to achieve the target volumes of the mobility market, H2E must be present in the heavy duty segment that will rely on large refuelling stations (1-2 tpd). Supplying such stations with GH2 will be feasible in a very limited area around our GH2 sources (100-150 km) using a significant number of large 300b trailers. For more distant or larger stations, it will not be possible with a 300b GH2 supply chain.
+
+IM
+EL
+H2E
+
+--- Slide 54:  ---
+‹#›
+
+
+
+
+Reactions on the LH2 topic
+
+--- Slide 55: Current GH2 fleet in Europe (ALD + ALBI + ALFI) ---
+Current GH2 fleet in Europe (ALD + ALBI + ALFI)
+‹#›
+Almost 400 gaseous H2 trailers (22% 300b and 78% 200b)
+Heterogeneity of the 200b fleet (design, payload, age)
+200b trailers purchase ban lifted to gain competitiveness
+Decision to qualify cheaper 300b trailers supported by the EAMEI Excom in June 2025
+
+--- Slide 56: Decided developments of 300b trailers solutions ---
+Decided developments of 300b trailers solutions
+‹#›
+
+
+CIMC Enric type 2 trailers
+190 k€
+
+Increased payload vs 200b (average)
+         + 96% for ALFI
+         + 26% for ALBI
+         + 54% for ALD
+Medium size 300b
+
+
+OP Mobility type 4
+536 k€
+
+145 k€ cheaper than Hexagon Wystrach (-21%)
+Should drop to 425 k€ in 2027-28
+Large size 300b
+Strategy validated by the Group Category Council in October 2025
+
+Potential risk of tariff increase for type 2 (linked to anti-dumping initiative from European Union)
+
+--- Slide 57: 3 types of trailers to be optimize performance and competitiveness ---
+3 types of trailers to be optimize performance and competitiveness
+‹#›
+Hypotheses:
+2,2 €/km
+5 years payback of delta CAPEX
+1 trailer (only) at customer site
+
+
+--- Slide 58: Status of the 300b (type 4) buffer ---
+Status of the 300b (type 4) buffer
+‹#›
+Invested							  92
+Allocated to customer contracts			- 72,5
+Maintenance compensation				-   7
+								  12,5
+
+Transfer to AL Denmark				-   2
+Wuppertal buses						-   2,5
+
+Available for new business				    8 trailers
+
+
+(NCE CPR decided to postpone the replenishment of 2 trailers allocated to Shell Emmen.
+
+--- Slide 59: Proposed strategy ---
+Proposed strategy
+‹#›
+Purchase type 2 300b to replace old 200b trailer when they reach their regulatory requalification due date. 
+→ will bring saving thanks to larger payload
+Order 5x type 4 trailers to OP Mobility to launch the development of this cheaper solution that will end up to much cheaper large type 4 trailers mainly for the mobility market 
+If new customers justifie investment in large type 4 before the availability of the new (cheaper) units, purchase type 2 to free up large units from contracts of customers that do not fully justify type 4 assets
+
+--- Slide 60: New 300b trailers purchase governance ---
+New 300b trailers purchase governance
+‹#›
+Move from a project-specific CAPEX request for new trailers to a clear split between "large H2-bulk offers" and "H2-trailers asset management”. Instead of embedding the CAPEX request for new trailers in the CPR note related to a specific project, there will now be a dedicated CAPEX request for trailers, triggered by a low buffer level (at the discretion of the NCE H2 leader who also has a European mandate).
+
+For public tenders, which represent a major part of H2E activity, there will be a single A+C CPR note. This considering the public tender model doesn't give the possibility of negotiation after submission of the binding offer, and therefore no need to close the loop post-offer before signing the contract (no gap between Gate A and Gate C).
+
+For large H2E projects (multi-year project, demand >5 trailers), for which negotiation are expected (for instance TEAL), the H2E steam will still have to go through the complete CPR process i.e. Gate V, then A, then C, and the CAPEX request will remain attached to the project Note. This should remain the exception rather than the norm though.
+
+--- Slide 61: No Title ---
+‹#›
+Project type ?
+New project
+CPR A+C note
+Simple, no negotiation (tenders), 1-5 trailers needed
+Offer accepted + signature
+Use trailers from buffer without new CPR review
+Complete CPR process (V then A then C gates)
+Large H2E projects, multi-year project, demand >5 trailers
+Offer accepted + signature
+Use trailers from buffer and replenish immediately
+Low buffer level reached ?
+NCE H2 leader goes to CPR/RIC to replenish the buffer
+End of the flow
+No
+Yes
+
+--- Slide 62:  ---
+‹#›
+
+
+
+
+Reactions on the GH2 trailers strategy
+
+--- Slide 63: H2 performance improvement ---
+H2 performance improvement
+‹#›
+
+ 
+
+Leverage on our cheaper sources
+Limits sourcing to competition
+
+
+Optimized sourcing schemes
+
+
+Choose the right logistics scheme (swap vs disposal)
+
+
+Optimized logistics
+
+ 
+
+Stop sourcing from AP Stade
+Source from Lillo with idle 300b trailers from ALFI
+
+→ further load internal source (Lillo)
+→ generate 500+ k€/year of OIR
+
+
+Lighters AL Denmark
+
+
+ 
+
+Moves ALA and ALP sourcing from Messer Bratisava to ALD sources (FHI, Francfort and Gersthofen)
+
+→ generate 100+ k€/year of OIR (@30 €/MWh NG price)
+→ stop ToP exposure
+
+
+Load internal sources
+
+ 
+
+See dedicated slide
+
+
+Germany logistics optimization
+
+--- Slide 64: Logistics savings opportunities in Germany ---
+Logistics savings opportunities in Germany
+‹#›
+Potential of 687k€/y of logistics savings with 6 customers
+3 800 kSm3/y in 2024
+735 deliveries
+87k€ saving with full drops
+59k€ with swap conversion
+2 145 kSm3/y in 2024
+1 346 deliveries (2 sites)
+Dispogas customer
+107k€ with milkrun delivery with 300b trailer for both sites
+Dispogas customer
+670  kSm3/y in 2024
+390 deliveries (143 km from Marl)
+177k€ by connecting a trailer next to the dispogas
+1 260 kSm3/y in 2025 (est.)
+393 deliveries
+67k€ saving with better delivery thresholds
+1 960 kSm3/y in 2024
+1063 deliveries
+Swap customer CMI
+130k€ saving with a 2nd 200b trailers at site
+ASU Dortmund
+Dispogas customer
+1 501  kSm3/y in 2024
+562 deliveries
+60k€ with swap conversion (200b)
+
+--- Slide 65: No Title ---
+‹#›
+Organisation 2026
+
+--- Slide 66: NCE Core Team meeting ---
+NCE Core Team meeting
+January 2026 - 20/22.01		Parts meeting in Schwechat - Online ?
+February 2026 - 4/6.02 		in Düsseldorf or later online? 
+March 2026 - 23/25.01 		Bulk meeting in Istanbul - in Turkey 25 afternoon + 26 Morning ?
+April 2026 16.04 Morning	Online 
+Mai 2026 -??- 22.05 Morning	??
+June 2026 - ?? - 18.06 Morning > PG meeting in Romania (TBC)
+July 2026 > Amandine Off > To be organised by Marek (Online meeting)
+August 2026 - ?? - Week 34 or week 35 > Austria ? Bulk meeting
+September 2026 - Online - 17.09.2025 
+October 2026 - ?? - 
+November 2026 - ?? 		
+December 2026 - ?? - 
+
+--- Slide 67:  ---
+NCE IPG Team Event in ROMANIA
+
+Week 22: May 27 - May 29
+OR
+Week 24: June 10 - June 12
+What else?
+Let’s confirm by the end of the month.
+Please revert to me if any change in your availability!
+
+--- Slide 68: Mathieu  ---
+Mathieu 
+‹#›
+H2: liquid H2 and GH2 trailers strategy
+
+--- Slide 69: No Title ---
+FIT COMMERCIAL PRICING:  
+
+CONTRACTS  Progress Update
+‹#›
+12/12/25
+
+--- Slide 70: Agenda
+ ---
+Agenda
+
+Background and context
+Deployment Process
+Benchmark Reviews
+Summary per Country
+Deployment 
+Contract Management Competencies
+Conclusion
+Backup Slides
+
+--- Slide 71: Legacy Position
+Lessons learned ---
+Impact
+
+Legacy Position
+Lessons learned
+EUROPE 
+ 
+ELO / ECO 
+templates
+Minimum commonly acceptable for all Countries, products and customers
+Starting 
+Point
+Example
+
+Energy Crisis: difficulty in passing through cost increases
+Growth: acquisition pricing needed to provide Day 1 Target Margin
+
+--- Slide 72: Deployment Process
+FIT Commercial Pricing Workshops ---
+Nb: all external benchmarking was completed in line with Group Legal memo re collection of Competitor Intel
+Pre FIT Deployment visits
+    Post FIT Deployment Visit
+Deployment Process
+FIT Commercial Pricing Workshops
+               During FIT Deployment visits
+Jan-25
+Apr-25
+Q4-24
+Jun-25+
+
+--- Slide 73: Benchmark Review
+Pre & Post Deployment ---
+Clause Type | Purpose | Airgas Contract | ELO / ECO Templates | FIT Contracts
+Duration | Volume protection | 7 years (fixed term) | Mixed interpretations 
+1 to 3 years
+Limited renewals | 5+3… (<30% MS)
+3+2… (>30% MS)
+Primary Mechanism | Margin protection(normal cost PT) | 5% / 7% increase per year cap | Formula (Bulk + PG) | Formula + Flooring
+[x]% per year cap
+Open formulation
+Secondary Mechanism | Margin improvement + Volume protection | Match or Release + prolongation | Negotiation & with mutual agreement | Match or Release + prolongation
+Escalation (fall back position)
+Surcharge | Margin protection(exceptional cost PT) | Broad and unilateral application | Limited to Energy only when included | Broad and unilateral application
+Volume | Margin protection + volume protection | Exclusivity
+Current and future needs provision | Defined, but without consequence
+AL obligation to supply; no customer obligation to purchase | Min/Max with unilateral price adjustment if Min not achieved
+ToP in some circumstances
+Benchmark Review
+Pre & Post Deployment
+Some hard lines remain across EU: Exclusivity & Duration 
+
+--- Slide 74: New Dimensions of the Contracts ---
+PRIMARY MECHANISM
+
+
+Revision Formula
+Fixed + Cap
+Open Formulation
+More “levers” for margin improvement vs today 
+New Dimensions of the Contracts
+SECONDARYMECHANISM
+
+
+Match or Release
+Escalation 
+VOLUME 
+
+
+Min / Max
+Take or Pay
+Price List
+Surcharges
+Main method of price revision, applied Monthly / Quarterly / Annually / at AL’s discretion
+Method of achieving price revision beyond that derived from the Primary Mechanism 
+Method of adjusting price in the event that the original volume expectations / commitments are not upheld by the customer
+
+Also brings the ability to adjust price if customer consumption levels exceed the original expectations / commitments
+
+Caution re ToP usage
+Wider application than to cover Energy fluctuations 
+FIT Contracts 
+are a must 
+to launch 
+Asset Stewardship
+
+--- Slide 75: Summary per Country
+Top 5 (8 countries) ---
+France | Iberia | Italy | Germany | BNL
+Bulk + PG | Bulk + PG | Bulk + PG | Bulk + PG | Bulk + PG
+Duration | 3+2 all products | ES: 5+3 (except LAR)
+PT: 3+2 all products | LAR/CO2: 3+2
+LIN/LOX/H2/He: 5+3 | He: 3+2
+LIN/LOX/LAR/CO2/H2: 5+3 | BE: 3+2 CO2/He  5+3 BAG/H2
+NL: 3+2 CO2/H2 5+3 BAG/He
+LU: as per BE
+Primary Mechanism | Formula: LIN/LOX[x]% per year: LAR/CO2/He
+Open: Small Bulk + PG
+Price List:  Services etc | Formula: LIN/LOX/CO2/LAR[x]% per year: not as a standard
+Open: Small Bulk + PG
+Price List: Services etc | Formula: LIN/LOX[x]% per year: LAR/CO2
+Open: Small Bulk + PG
+Price List: Services etc | Formula: LIN/LOX/CO2/H2[x]% per year: LAR
+Open: Small Bulk + PG
+Price List: Services etc | Formula: LIN/LOX/CO2/H2[x]% per year: LAR
+Open: Small Bulk + PG
+Price List: Services etc
+Secondary Mechanism | Match or Release + prolongationEscalation as fall-back | Match or Release + prolongationEscalation as fall-back | Match or Release + prolongationEscalation as fall-back | Match or Release + prolongationEscalation as fall-back | Match or Release + prolongationEscalation as fall-back
+Surcharge | Broad, unilateral, limited to 6 month duration | Broad, unilateral | Broad, unilateral | Broad, unilateral | Broad, unilateralCease supply as fall-back
+Volume | Min/Max with unilateral price adjustment if Min Vols not achievedToP for special 
+circumstances | Min/Max with unilateral price adjustment if Min Vols not achievedToP for special circumstances & Energy | Min/Max with unilateral price adjustment if Min Vols not achievedToP for special 
+circumstances | Min/Max with unilateral price adjustment if Min Vols not achievedToP for special 
+circumstances | Min/Max with unilateral price adjustment if Min Vols not achievedToP for special 
+circumstances
+Summary per Country
+Top 5 (8 countries)
+Extension to other geographies under the lead of Product Marketing, with priority given to Asset Stewardship geographies
+
+--- Slide 76: Concrete implementation ---
+Concrete implementation
+‹#›
+
+--- Slide 77: Deployment
+ ---
+Deployment
+
+The engagement and conviction of Sales Teams 
+is key for deployment success
+
+--- Slide 78: Contract Management competenciesContract Lifecycle Management (CLM)
+ ---
+Contract Management competenciesContract Lifecycle Management (CLM)
+
+Business Support
+Use of Contracts
+Project must be supported by System: manual tracking of multi-layered clauses will result in inefficient usage
+CLM Project underway 
+but in early stagesinclusive of contract drafting & signature process, and pricing management actions
+Ironclad CLM solution: replication from Airgas 
+Watch Point: bandwidth concerns within D&IT and Business teams
+Professionalising Contract Management
+Stronger contract = increase in deviations to standard
+Fall back clauses
+DOA
+Understanding the value of the clause(s)
+Flexible Clauses must be used wisely, under the guidance of the Pricing Leader
+Conclusion: increase in Contract management
+
+--- Slide 79: Conclusion: Contracts + Customer Experience
+ ---
+Conclusion: Contracts + Customer Experience
+
+
+--- Slide 80: IM WBL FIT Commercial Contract Initiative ---
+IM WBL FIT Commercial Contract Initiative
+‹#›
+
+--- Slide 81: BACKUP ---
+BACKUP
+‹#›
+
+--- Slide 82: New opportunities with AI: PARTS search goes Gemini ---
+New opportunities with AI: PARTS search goes Gemini
+‹#›
+Marcel Glück from M&P has created a GEM that simplifies product searches in catalogues. It's really interesting because it also lists alternatives and explanations.
+
+Here is the  Link to the GEM. Feel free to save it to your favourites.
+
+
+Please do some practical checks, to confirm reliability!
+
+New tool for CSC and Inside Sales?
+New LINK modified by Reinhold inkl. e.g. Food EQ

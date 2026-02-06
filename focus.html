@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Focus | AI Roadmap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style-corporate.css">
+    <style>
+        .container {
+            max-width: 1400px !important;
+        }
+
+        .title-section {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        /* SPLIT LAYOUT */
+        .content-split {
+            display: flex;
+            gap: 4rem;
+            align-items: flex-end;
+            /* Bottom Aligned as requested */
+            margin-top: 2rem;
+        }
+
+        .text-side {
+            flex: 1;
+        }
+
+        .visual-side {
+            flex: 1.4;
+        }
+
+        /* GRAPH 1: THE ASCENT (Vertical Flow) */
+        .ascent-container {
+            background: linear-gradient(to bottom, #f0f7ff, white);
+            border: 1px solid #e0e0e0;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-top: 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .ascent-step {
+            background: white;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem auto;
+            width: 80%;
+            font-weight: 600;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            position: relative;
+            z-index: 2;
+        }
+
+        .step-top {
+            border-color: #E4002B;
+            color: #C53030;
+            background: #fff5f5;
+        }
+
+        .step-bottom {
+            border-color: #48BB78;
+            color: #2F855A;
+            background: #f0fff4;
+        }
+
+        .ascent-arrow {
+            position: absolute;
+            left: 50%;
+            top: 20px;
+            bottom: 20px;
+            width: 2px;
+            background: #ccc;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        .ascent-arrow::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -5px;
+            border-width: 0 5px 10px 5px;
+            border-style: solid;
+            border-color: transparent transparent #ccc transparent;
+        }
+
+
+        /* GRAPH 2: THE MATRIX (Scatter Plot) */
+        .matrix-container {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            height: 500px;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            margin-left: 1rem;
+        }
+
+        /* Axis Styling */
+        .axis-line-x {
+            position: absolute;
+            left: 60px;
+            right: 40px;
+            bottom: 60px;
+            height: 2px;
+            background: #333;
+        }
+
+        .axis-line-y {
+            position: absolute;
+            left: 60px;
+            top: 40px;
+            bottom: 60px;
+            width: 2px;
+            background: #333;
+        }
+
+        .axis-label-x {
+            position: absolute;
+            bottom: 20px;
+            left: 60px;
+            right: 40px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .axis-label-y {
+            position: absolute;
+            top: 50%;
+            left: -80px;
+            /* Moves it clearly outside */
+            width: 200px;
+            /* Gives it space to rotate */
+            text-align: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transform: rotate(-90deg) translateY(-50%);
+            transform-origin: center center;
+        }
+
+        /* Quadrant Labels */
+        .quad-label {
+            position: absolute;
+            font-size: 4rem;
+            font-weight: 800;
+            color: #f0f0f0;
+            z-index: 0;
+            user-select: none;
+        }
+
+        .label-1 {
+            top: 60px;
+            right: 60px;
+        }
+
+        .label-2 {
+            top: 60px;
+            left: 80px;
+        }
+
+        .label-3 {
+            bottom: 80px;
+            left: 80px;
+        }
+
+        .label-4 {
+            bottom: 80px;
+            right: 60px;
+        }
+
+        /* Quadrant Dividers */
+        .divider-vert {
+            position: absolute;
+            top: 40px;
+            bottom: 60px;
+            left: 50%;
+            width: 1px;
+            border-left: 2px dashed #eee;
+            z-index: 0;
+        }
+
+        .divider-horz {
+            position: absolute;
+            left: 60px;
+            right: 40px;
+            top: 50%;
+            height: 1px;
+            border-top: 2px dashed #eee;
+            z-index: 0;
+        }
+
+        /* Feedback Table */
+        .feedback-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .feedback-table th {
+            background: #f8f9fa;
+            color: #333;
+            font-weight: 700;
+            text-align: left;
+            padding: 1rem 1.5rem;
+            border-bottom: 2px solid #e0e0e0;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        .feedback-table td {
+            padding: 1.2rem 1.5rem;
+            border-bottom: 1px solid #eee;
+            color: #555;
+            vertical-align: top;
+            line-height: 1.5;
+        }
+
+        .feedback-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .feedback-table tr:nth-child(even) {
+            background-color: #fafbfc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient-background"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">INPUT</a>
+            <a href="landscape.html" class="nav-link">LANDSCAPE</a>
+            <a href="opportunity.html" class="nav-link">OPPORTUNITY</a>
+            <a href="focus.html" class="nav-link active">FOCUS</a>
+            <a href="action.html" class="nav-link">ACTION</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <svg class="logo" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" fill="#0050A0" />
+                    <text x="12" y="27" fill="white" font-size="20" font-weight="bold" font-family="Inter">A</text>
+                    <text x="45" y="25" fill="#0050A0" font-size="16" font-weight="600" font-family="Inter">Air</text>
+                    <text x="72" y="25" fill="#E4002B" font-size="16" font-weight="600"
+                        font-family="Inter">Liquide</text>
+                </svg>
+            </div>
+            <div class="team-badge">NCE Cluster Product Marketing</div>
+        </header>
+
+        <main class="main-content">
+            <div class="title-section">
+                <span class="eyebrow">PART 3: THE STRATEGY</span>
+                <h1 class="main-title">Prioritizing Impact</h1>
+                <p class="subtitle">Moving from "Internal Efficiency" to "Business Growth".</p>
+            </div>
+
+            <div class="content-split">
+
+                <!-- LEFT COLUMN: NARRATIVE + GRAPH 1 (ASCENT) -->
+                <div class="text-side">
+                    <h2 style="color: #002552; margin-bottom: 1rem;">The Strategic Shift</h2>
+                    <p style="color: #666; line-height: 1.6; margin-bottom: 2rem; font-size: 1.1rem;">
+                        We must be efficient to <strong>free up brain capacity</strong>. This allows us to touch on the
+                        things that will <strong>drive real business impact</strong>.
+                    </p>
+
+                    <!-- GRAPH 1: THE ASCENT -->
+                    <div class="ascent-container">
+                        <div class="ascent-arrow"></div>
+
+                        <div class="ascent-step step-top">
+                            🔼 P&L DRIVERS<br>
+                            <span style="font-size: 0.85rem; font-weight: 400;">Growth, Pricing, Volume</span>
+                        </div>
+
+                        <div
+                            style="margin: 2rem 0; font-size: 0.9rem; color: #999; background: white; display: inline-block; padding: 0 10px; position: relative; z-index: 2;">
+                            ⬆️ The Value Chain
+                        </div>
+
+                        <div class="ascent-step step-bottom">
+                            ⚙️ OPS EFFICIENCY<br>
+                            <span style="font-size: 0.85rem; font-weight: 400;">Cost, Speed, Capacity</span>
+                        </div>
+                    </div>
+
+                    <p style="margin-top: 2rem; font-style: italic; color: #777; font-size: 0.95rem;">
+                        "We automate the bottom to liberate capacity for the top."
+                    </p>
+                </div>
+
+                <!-- RIGHT COLUMN: GRAPH 2 (MATRIX) -->
+                <div class="visual-side">
+                    <div class="matrix-container">
+
+                        <!-- AXES -->
+                        <div class="axis-line-x"></div>
+                        <div class="axis-line-y"></div>
+                        <div class="axis-label-x">Technological Maturity / Effort →</div>
+                        <div class="axis-label-y">Business Impact (P&L) →</div>
+
+                        <!-- QUADRANT DIVIDERS -->
+                        <div class="divider-vert"></div>
+                        <div class="divider-horz"></div>
+
+                        <!-- QUADRANT LABELS (Background Hints) -->
+                        <div class="quad-label label-1">Q1</div>
+                        <div class="quad-label label-2">Q2</div>
+                        <div class="quad-label label-3">Q3</div>
+                        <div class="quad-label label-4">Q4</div>
+
+                    </div>
+
+                    <div style="text-align: center; margin-top: 1rem; color: #888; font-size: 0.9rem;">
+                        <i>Where do our initiatives sit?</i>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- TEAM FEEDBACK TABLE (Interactive Exercise) -->
+            <div class="feedback-section" style="margin-top: 4rem; border-top: 1px solid #eee; padding-top: 2rem;">
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <h3 style="color: #002552; margin-bottom: 0.5rem;">The Voice of the Team</h3>
+                    <p style="color: #666; font-style: italic;">Exercise: Which Quadrant (Q1–Q4) does each initiative
+                        belong to?</p>
+                </div>
+
+                <table class="feedback-table">
+                    <thead>
+                        <tr>
+                            <th width="10%">Person</th>
+                            <th width="45%">Current Pain <span style="font-weight: 400; color: #666;">(The
+                                    "Toil")</span></th>
+                            <th width="45%">The Opportunity <span style="font-weight: 400; color: #666;">(The
+                                    "Leverage")</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Person A (Melanie) -->
+                        <tr>
+                            <td style="font-weight: 700; color: #0050A0;">Person A</td>
+                            <td><strong>Data Inconsistency & Manual Cleaning</strong><br>
+                                "There is data inconsistency between Price Engine -> Salesforce -> Anaplan. We see old
+                                and new guidance lines displayed together, forcing us to clean it manually."</td>
+                            <td><strong>Direct ETL & ML Recommendations</strong><br>
+                                "Implement direct ETL for consistency and achieve 'Perfect ML Price Recommendations'
+                                automatically."</td>
+                        </tr>
+
+                        <!-- Person B (Amandine) -->
+                        <tr>
+                            <td style="font-weight: 700; color: #0050A0;">Person B</td>
+                            <td><strong>Unstructured Competitor Intelligence</strong><br>
+                                "We have competitor info in Salesforce, but it's unstructured and unused. We are not
+                                leveraging the data we already have."</td>
+                            <td><strong>AI Prospecting & P&L Engine</strong><br>
+                                "Move away from random sales visits. Use AI to identify potential prospects and link
+                                Data to Decisions that impact the P&L."</td>
+                        </tr>
+
+                        <!-- Person C (Florian) -->
+                        <tr>
+                            <td style="font-weight: 700; color: #0050A0;">Person C</td>
+                            <td><strong>Trust & Access Issues</strong><br>
+                                "Difficulty finding the right BI Report and accessing figures I can actually trust
+                                across different systems (ERP, etc)."</td>
+                            <td><strong>Unified Trusted Access</strong><br>
+                                "Seamless access to all Power BI reports and systems running in different countries with
+                                verified numbers."</td>
+                        </tr>
+
+                        <!-- Person D (Radu) -->
+                        <tr>
+                            <td style="font-weight: 700; color: #0050A0;">Person D</td>
+                            <td><strong>The 80/20 Trap (Manual Prep)</strong><br>
+                                "I spend <strong>80% of my time</strong> just finding/fixing data for Flash Reports, and
+                                only 20% analyzing. I lack tools for 'Right Pricing' in SE Europe."</td>
+                            <td><strong>AI Pricing Application (Multi-Scenario)</strong><br>
+                                "An AI that models 4 distinct price points instantly: Cost-based, Marginal Cost,
+                                Opportunity Cost, and Value-Added."</td>
+                        </tr>
+
+                        <!-- Person E (Jörg) -->
+                        <tr>
+                            <td style="font-weight: 700; color: #0050A0;">Person E</td>
+                            <td><strong>Manual Data Quality Checks</strong><br>
+                                "Processing lists for eclass and manually checking data quality in SAP. Qualifying
+                                people for technical expertise."</td>
+                            <td><strong>AI Knowledge & Process Database</strong><br>
+                                "AI as an Expert Guide: Asking dedicated questions to build reliable customer offers.
+                                Making everyone an expert on standard topics."</td>
+                        </tr>
+
+                        <!-- Person F (Mario) -->
+                        <tr>
+                            <td style="font-weight: 700; color: #0050A0;">Person F</td>
+                            <td><strong>Static Reporting Blocks</strong><br>
+                                "Cannot fast-extract underlying data or rebuild reports (e.g., cost inflation per SSBL).
+                                Dealing with manual currency conversions."</td>
+                            <td><strong>Integrated Profit Prioritization</strong><br>
+                                "A tool that prioritizes actions: 1. Aggressive Smart Pricing (Volume Growth). 2.
+                                Protective Churn Management (Fixing Overpriced Customers)."</td>
+                        </tr>
+
+                        <!-- Person G (Elizaveta) -->
+                        <tr>
+                            <td style="font-weight: 700; color: #0050A0;">Person G</td>
+                            <td><strong>The PDF Nightmare</strong><br>
+                                "Absence of a clear contract database means checking PDFs individually. SAP updates
+                                require 10+ stakeholders for minor changes."</td>
+                            <td><strong>AI 'Bundle Advisor' & Plant Optimization</strong><br>
+                                "AI checks the customer's real gas purchase profile vs theoretical need and advises
+                                Bundle Deals. AI optimizes plant flows."</td>
+                        </tr>
+
+                        <!-- Person H (Marek) -->
+                        <tr>
+                            <td style="font-weight: 700; color: #0050A0;">Person H</td>
+                            <td><strong>High-Level Data Opacity</strong><br>
+                                "IRIS data is too high-level. It is difficult to answer underlying profitability
+                                questions or explain LY/LM deviations."</td>
+                            <td><strong>Automated Variance Analysis</strong><br>
+                                "Automatic explanation of daily volume trends by customer (predicting future daily based
+                                on history vs Last Year)."</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 NCE Cluster Product Marketing | AI Roadmap Initiative</p>
+        </footer>
+    </div>
+</body>
+
+</html>

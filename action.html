@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action & Governance | AI Roadmap</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style-corporate.css">
+    <style>
+        .container {
+            max-width: 1400px !important;
+        }
+
+        .title-section {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        /* HUB & SPOKE VISUAL (Reverted) */
+        .governance-container {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin-bottom: 3rem;
+        }
+
+        /* Central Hub */
+        .hub-center {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0050A0, #003366);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            z-index: 10;
+            box-shadow: 0 0 30px rgba(0, 80, 160, 0.3);
+            border: 4px solid white;
+            position: relative;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .hub-label {
+            font-weight: 700;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            line-height: 1.2;
+        }
+
+        .hub-sub {
+            font-size: 0.85rem;
+            opacity: 0.9;
+            font-weight: 400;
+        }
+
+        /* Spokes */
+        .spoke-item {
+            position: absolute;
+            background: white;
+            border: 2px solid #e0e0e0;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            width: 180px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            font-weight: 600;
+            color: #444;
+            z-index: 5;
+            transition: transform 0.3s ease;
+        }
+
+        .spoke-item:hover {
+            border-color: #E4002B;
+            transform: scale(1.05);
+            color: #E4002B;
+        }
+
+        /* Positions */
+        .spoke-1 {
+            top: 8%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* NCE Meeting */
+        .spoke-2 {
+            top: 38%;
+            right: 8%;
+        }
+
+        /* Pkg Gas */
+        .spoke-3 {
+            bottom: 12%;
+            right: 20%;
+        }
+
+        /* Special Gas */
+        .spoke-4 {
+            bottom: 12%;
+            left: 20%;
+        }
+
+        /* Parts / Other */
+        .spoke-5 {
+            top: 38%;
+            left: 8%;
+        }
+
+        /* Bulk Team */
+
+        /* Connection Lines (SVG) */
+        .connections {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+
+        /* PROCESS STEPS */
+        .process-row {
+            display: flex;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .process-card {
+            flex: 1;
+            background: #f8fbff;
+            border: 1px solid #eef2f6;
+            padding: 2rem;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .step-num {
+            position: absolute;
+            top: -15px;
+            left: 20px;
+            background: #0050A0;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .process-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #002552;
+            margin-bottom: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .process-desc {
+            font-size: 0.95rem;
+            color: #666;
+            line-height: 1.5;
+        }
+
+        /* BOTTOM CTA */
+        .cta-box {
+            background: linear-gradient(135deg, #002552, #0050A0);
+            color: white;
+            padding: 3rem;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .cta-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .cta-text {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn-primary {
+            background: #E4002B;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+            transition: background 0.2s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background: #c20024;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient-background"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">INPUT</a>
+            <a href="landscape.html" class="nav-link">LANDSCAPE</a>
+            <a href="opportunity.html" class="nav-link">OPPORTUNITY</a>
+            <a href="focus.html" class="nav-link">FOCUS</a>
+            <a href="action.html" class="nav-link active">ACTION</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <svg class="logo" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" fill="#0050A0" />
+                    <text x="12" y="27" fill="white" font-size="20" font-weight="bold" font-family="Inter">A</text>
+                    <text x="45" y="25" fill="#0050A0" font-size="16" font-weight="600" font-family="Inter">Air</text>
+                    <text x="72" y="25" fill="#E4002B" font-size="16" font-weight="600"
+                        font-family="Inter">Liquide</text>
+                </svg>
+            </div>
+            <div class="team-badge">NCE Cluster Product Marketing</div>
+        </header>
+
+        <main class="main-content">
+
+            <!-- SECTION 1: PERSONAL JOURNEY (The "How" for the Individual) -->
+            <div class="title-section" style="margin-bottom: 2rem;">
+                <span class="eyebrow">PART 4: EXECUTION</span>
+                <h1 class="main-title">The Personal Journey</h1>
+                <p class="subtitle">Your evolution from User to Commander.</p>
+            </div>
+
+            <div class="journey-grid"
+                style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem; margin-bottom: 5rem;">
+                <!-- Step 1 -->
+                <div class="journey-card"
+                    style="background: white; padding: 2rem; border-radius: 8px; border-top: 4px solid #00A3E0; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                    <div style="font-weight: 700; color: #00A3E0; margin-bottom: 0.5rem;">LEVEL 1</div>
+                    <h3 style="margin-top: 0; color: #002552;">The Prompter</h3>
+                    <p style="font-size: 0.9rem; color: #555; height: 40px;">Interacting with LLMs for structure &
+                        thought partnership.</p>
+                    <div
+                        style="background: #f0f7ff; color: #0050A0; padding: 0.5rem; font-size: 0.8rem; font-weight: 600; text-align: center; border-radius: 4px; margin-top: 1rem;">
+                        Gemini / ChatGPT</div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="journey-card"
+                    style="background: white; padding: 2rem; border-radius: 8px; border-top: 4px solid #E4002B; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                    <div style="font-weight: 700; color: #E4002B; margin-bottom: 0.5rem;">LEVEL 2</div>
+                    <h3 style="margin-top: 0; color: #002552;">The Explorer</h3>
+                    <p style="font-size: 0.9rem; color: #555; height: 40px;">Building small automations & organizing
+                        knowledge.</p>
+                    <div
+                        style="background: #fff0f2; color: #E4002B; padding: 0.5rem; font-size: 0.8rem; font-weight: 600; text-align: center; border-radius: 4px; margin-top: 1rem;">
+                        NotebookLM / n8n Automation</div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="journey-card"
+                    style="background: white; padding: 2rem; border-radius: 8px; border-top: 4px solid #0050A0; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
+                    <div style="font-weight: 700; color: #0050A0; margin-bottom: 0.5rem;">LEVEL 3</div>
+                    <h3 style="margin-top: 0; color: #002552;">The Agentic Lead</h3>
+                    <p style="font-size: 0.9rem; color: #555; height: 40px;">Orchestrating autonomous agents to build
+                        software.</p>
+                    <div
+                        style="background: #eef2f6; color: #002552; padding: 0.5rem; font-size: 0.8rem; font-weight: 600; text-align: center; border-radius: 4px; margin-top: 1rem;">
+                        Antigravity / Claude Code</div>
+                </div>
+            </div>
+
+            <!-- SECTION 2: TEAM ALIGNMENT (The Governance) -->
+            <div class="title-section">
+                <!-- <span class="eyebrow">TEAM GOVERNANCE</span> -->
+                <h1 class="main-title">Alignment</h1>
+            </div>
+
+            <!-- HUB & SPOKE VISUAL -->
+            <div class="governance-container">
+                <!-- SVG Lines -->
+                <svg class="connections">
+                    <!-- Lines from Center (50% 50%) to Spoke Locations -->
+                    <line x1="50%" y1="50%" x2="50%" y2="15%" stroke="#ccc" stroke-width="2" stroke-dasharray="5" />
+                    <line x1="50%" y1="50%" x2="15%" y2="45%" stroke="#ccc" stroke-width="2" stroke-dasharray="5" />
+                    <line x1="50%" y1="50%" x2="85%" y2="45%" stroke="#ccc" stroke-width="2" stroke-dasharray="5" />
+                    <line x1="50%" y1="50%" x2="30%" y2="85%" stroke="#ccc" stroke-width="2" stroke-dasharray="5" />
+                    <line x1="50%" y1="50%" x2="70%" y2="85%" stroke="#ccc" stroke-width="2" stroke-dasharray="5" />
+                </svg>
+
+                <div class="hub-center">
+                    <div class="hub-label">Central Align</div>
+                    <div class="hub-sub">Standards & Tools</div>
+                </div>
+
+                <div class="spoke-item spoke-1">Monthly NCE Meeting<br><span
+                        style="font-size:0.8rem; color:#999; font-weight:400;">(Prioritization & Support)</span></div>
+                <div class="spoke-item spoke-5">Bulk Team<br><span
+                        style="font-size:0.8rem; color:#999; font-weight:400;">(Sub-Team Ritual)</span></div>
+                <div class="spoke-item spoke-2">Packaged Gas<br><span
+                        style="font-size:0.8rem; color:#999; font-weight:400;">(Sub-Team Ritual)</span></div>
+                <div class="spoke-item spoke-4">Specialty Gas<br><span
+                        style="font-size:0.8rem; color:#999; font-weight:400;">(Sub-Team Ritual)</span></div>
+                <div class="spoke-item spoke-3">Parts & Hard Goods<br><span
+                        style="font-size:0.8rem; color:#999; font-weight:400;">(Sub-Team Ritual)</span></div>
+
+            </div>
+
+            <!-- THE CADENCE STEPS -->
+            <div class="process-row">
+                <div class="process-card">
+                    <div class="step-num">1</div>
+                    <div class="process-title">Sub-Teams (Rituals)</div>
+                    <div class="process-desc">
+                        Teams run the <strong>"Pain vs Leverage"</strong> exercise internally. They filter ideas using
+                        the Strategy Matrix before bringing them up.
+                    </div>
+                </div>
+
+                <div class="process-card">
+                    <div class="step-num">2</div>
+                    <div class="process-title">Monthly NCE Review</div>
+                    <div class="process-desc">
+                        We review the selected "High Impact" initiatives. We assign resources only to those that fit the
+                        <strong>Invest Capacity</strong> quadrant.
+                    </div>
+                </div>
+
+                <div class="process-card">
+                    <div class="step-num">3</div>
+                    <div class="process-title">Yearly Roadmap</div>
+                    <div class="process-desc">
+                        We do not define the roadmap top-down. The roadmap is the <strong>Consolidated Output</strong>
+                        of the team's validated priorities.
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION 3: ROLE CLARITY (Who Plays What) -->
+            <div style="margin-top: 5rem; margin-bottom: 3rem;">
+                <h2 style="text-align: center; color: #002552; margin-bottom: 2rem;">Proposed Roles</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 2rem;">
+
+                    <!-- Role 1: Byunghui -->
+                    <div
+                        style="background: #f8fbff; border: 1px solid #eef2f6; padding: 2rem; border-radius: 8px; text-align: center;">
+                        <div style="color: #0050A0; font-weight: 700; margin-bottom: 0.5rem;">Byunghui Yoo</div>
+                        <h3 style="margin-top: 0; font-size: 1.2rem;">The Framer</h3>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 1rem;">
+                            Establish the Strategy Matrix, define the Governance Rails, and select the Tool Stack.
+                        </p>
+                    </div>
+
+                    <!-- Role 2: Radu -->
+                    <div
+                        style="background: #f8fbff; border: 1px solid #eef2f6; padding: 2rem; border-radius: 8px; text-align: center;">
+                        <div style="color: #0050A0; font-weight: 700; margin-bottom: 0.5rem;">Radu</div>
+                        <h3 style="margin-top: 0; font-size: 1.2rem;">The Hands-on Enabler</h3>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 1rem;">
+                            Rapid prototyping, technical feasibility checks, and pilot implementation.
+                        </p>
+                    </div>
+
+                    <!-- Role 3: The Team -->
+                    <div
+                        style="background: #f8fbff; border: 1px solid #eef2f6; padding: 2rem; border-radius: 8px; text-align: center;">
+                        <div style="color: #0050A0; font-weight: 700; margin-bottom: 0.5rem;">The Team</div>
+                        <h3 style="margin-top: 0; font-size: 1.2rem;">Subject Matter Experts</h3>
+                        <p style="font-size: 0.9rem; color: #666; margin-top: 1rem;">
+                            Identify high-value use cases (Pain vs Leverage) and upskill on the tools.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- CALL TO ACTION -->
+            <div class="cta-box">
+                <div class="cta-title">Your Homework</div>
+                <p class="cta-text">
+                    By the next Monthly Review, run the <strong>Team Feedback Exercise</strong> with your sub-team.
+                    Identify your Top 3 Priorities.
+                </p>
+                <a href="assets/AI_Initiative_Template.xlsx" class="btn-primary" download>Download Template</a>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 NCE Cluster Product Marketing | AI Roadmap Initiative</p>
+        </footer>
+    </div>
+</body>
+
+</html>

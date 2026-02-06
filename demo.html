@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis | The Agentic Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #002552, #0050A0);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+        }
+
+        .chat-container {
+            width: 100%;
+            max-width: 900px;
+            height: 85vh;
+            background: white;
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .chat-header {
+            padding: 1.5rem 2rem;
+            background: white;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #002552;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            background: #00ff00;
+            border-radius: 50%;
+            box-shadow: 0 0 10px #00ff00;
+        }
+
+        .chat-history {
+            flex: 1;
+            padding: 2rem;
+            background: #f8fafc;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .message {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+            max-width: 80%;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .user-msg {
+            flex-direction: row-reverse;
+            align-self: flex-end;
+        }
+
+        .avatar {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            flex-shrink: 0;
+        }
+
+        .agent-avatar {
+            background: linear-gradient(135deg, #0050A0, #002552);
+            font-size: 1.2rem;
+        }
+
+        .user-avatar {
+            background: #E4002B;
+        }
+
+        .bubble {
+            padding: 1.2rem 1.8rem;
+            border-radius: 20px;
+            line-height: 1.6;
+            font-size: 1.05rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+            position: relative;
+        }
+
+        .agent-bubble {
+            background: white;
+            border-top-left-radius: 4px;
+            color: #333;
+        }
+
+        .user-bubble {
+            background: #0050A0;
+            color: white;
+            border-top-right-radius: 4px;
+        }
+
+        .input-area {
+            padding: 2rem;
+            background: white;
+            border-top: 1px solid #f0f0f0;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        #chatInput {
+            flex: 1;
+            padding: 1.2rem;
+            border: 2px solid #eee;
+            border-radius: 50px;
+            outline: none;
+            transition: all 0.2s;
+            font-size: 1.1rem;
+        }
+
+        #chatInput:focus {
+            border-color: #0050A0;
+            box-shadow: 0 0 0 3px rgba(0, 80, 160, 0.1);
+        }
+
+        .mic-btn,
+        .send-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            transition: all 0.2s;
+        }
+
+        .mic-btn {
+            background: #f0f0f0;
+            color: #555;
+        }
+
+        .mic-btn.active {
+            background: #E4002B;
+            color: white;
+            animation: pulse 1.5s infinite;
+        }
+
+        .send-btn {
+            background: #0050A0;
+            color: white;
+            width: auto;
+            padding: 0 2.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .mic-btn:hover,
+        .send-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-link {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+
+        .back-link:hover {
+            opacity: 1;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(228, 0, 43, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(228, 0, 43, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(228, 0, 43, 0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html" class="back-link">← Back to Presentation</a>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-title">
+                <div class="status-dot"></div>
+                JARVIS <span style="font-weight:400; opacity:0.6; font-size: 1rem;">| Voice Interface</span>
+            </div>
+            <div style="font-size: 0.9rem; color: #777;">Powered by Anti-Gravity</div>
+        </div>
+
+        <div id="chatHistory" class="chat-history">
+            <div class="message agent-msg">
+                <div class="avatar agent-avatar">J</div>
+                <div class="bubble agent-bubble">
+                    <strong>System Online.</strong><br>
+                    I have access to your:
+                    <ul style="margin: 5px 0 0 20px; padding:0;">
+                        <li>Gmail (Send & Draft)</li>
+                        <li>Google Calendar (Schedule)</li>
+                        <li>Contacts Database</li>
+                    </ul>
+                    What would you like me to do?
+                </div>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input id="chatInput" type="text" placeholder="Type or click the mic to speak..."
+                onkeypress="handleEnter(event)">
+            <button class="mic-btn" onclick="toggleMic()" id="micBtn">🎤</button>
+            <button class="send-btn" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        const chatHistory = document.getElementById('chatHistory');
+        const chatInput = document.getElementById('chatInput');
+
+        // Voice Recognition Setup
+        let recognition;
+        if ('webkitSpeechRecognition' in window) {
+            recognition = new webkitSpeechRecognition();
+            recognition.continuous = false;
+            recognition.interimResults = false;
+            recognition.lang = 'en-US';
+
+            recognition.onstart = function () {
+                document.getElementById('micBtn').classList.add('active');
+                chatInput.placeholder = "Listening...";
+            };
+
+            recognition.onend = function () {
+                document.getElementById('micBtn').classList.remove('active');
+                chatInput.placeholder = "Type or click the mic to speak...";
+            };
+
+            recognition.onresult = function (event) {
+                const transcript = event.results[0][0].transcript;
+                chatInput.value = transcript;
+                sendMessage();
+            };
+        } else {
+            document.getElementById('micBtn').style.display = 'none';
+        }
+
+        function toggleMic() {
+            if (recognition) recognition.start();
+        }
+
+        function handleEnter(e) {
+            if (e.key === 'Enter') sendMessage();
+        }
+
+        function addMessage(text, sender) {
+            const div = document.createElement('div');
+            div.className = `message ${sender}-msg`;
+            div.innerHTML = `
+                <div class="avatar ${sender}-avatar">${sender === 'user' ? 'U' : 'J'}</div>
+                <div class="bubble ${sender}-bubble">${text}</div>
+            `;
+            chatHistory.appendChild(div);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+
+            // TTS Logic
+            if (sender === 'agent') {
+                // Remove HTML tags for speaking
+                const cleanText = text.replace(/<br>/g, ' ').replace(/<[^>]*>/g, '');
+                const u = new SpeechSynthesisUtterance(cleanText);
+                // Optional: Pick a voice? Default is usually fine.
+                window.speechSynthesis.speak(u);
+            }
+        }
+
+        async function sendMessage() {
+            const text = chatInput.value.trim();
+            if (!text) return;
+
+            addMessage(text, 'user');
+            chatInput.value = '';
+
+            // Show Loading
+            const loadingId = 'loading-' + Date.now();
+            const loadDiv = document.createElement('div');
+            loadDiv.className = 'message agent-msg';
+            loadDiv.id = loadingId;
+            loadDiv.innerHTML = `
+                <div class="avatar agent-avatar">J</div>
+                <div class="bubble agent-bubble" style="font-style:italic; color:#999;">
+                    Processing via Anti-Gravity...
+                </div>
+            `;
+            chatHistory.appendChild(loadDiv);
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+
+            try {
+                // Point to Port 8007 (The Live Agent)
+                const response = await fetch('http://localhost:8009/jarvis', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ query: text })
+                });
+                const data = await response.json();
+
+                document.getElementById(loadingId).remove();
+                addMessage(data.response.replace(/\n/g, '<br>'), 'agent');
+
+            } catch (e) {
+                document.getElementById(loadingId).remove();
+                addMessage("Error connecting to Agent (ensure server_agent.py is running on port 8007): " + e, 'agent');
+            }
+        }
+    </script>
+</body>
+
+</html>

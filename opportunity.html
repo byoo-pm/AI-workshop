@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Opportunity | AI Roadmap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style-corporate.css">
+    <style>
+        .container {
+            max-width: 1400px !important;
+        }
+
+        .title-section {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .graphs-container {
+            display: flex;
+            gap: 3rem;
+            margin: 2rem 0;
+            align-items: stretch;
+        }
+
+        .graph-section {
+            flex: 1;
+            background: white;
+            padding: 3rem 2rem;
+            /* Increased top padding significantly */
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .graph-title {
+            color: #002552;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 3rem;
+            /* More space below title */
+            text-align: center;
+        }
+
+        /* GRAPH 1 CSS */
+        .bar-chart-wrapper {
+            width: 100%;
+            height: 350px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 60px;
+            position: relative;
+            padding-bottom: 40px;
+            margin-top: 20px;
+            /* Push bars down */
+        }
+
+        .bar-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 120px;
+        }
+
+        .bar {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+            transition: height 1s ease;
+            position: relative;
+        }
+
+        .bar-low {
+            height: 50px;
+            background: #A4C8E1;
+        }
+
+        .bar-high {
+            height: 250px;
+            background: #E4002B;
+            background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 10px, transparent 10px, transparent 20px);
+        }
+
+        .bar-percent {
+            color: #002552;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            /* Space between % and Bar */
+        }
+
+        .bar-high .bar-percent {
+            color: #E4002B;
+        }
+
+        .bar-label {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 0.95rem;
+            color: #555;
+            line-height: 1.4;
+        }
+
+        .gap-bracket {
+            position: absolute;
+            right: 20px;
+            top: 80px;
+            bottom: 40px;
+            width: 20px;
+            border-right: 3px solid #0050A0;
+            border-top: 3px solid #0050A0;
+            border-bottom: 3px solid #0050A0;
+        }
+
+        .gap-text {
+            position: absolute;
+            right: -140px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #0050A0;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-align: left;
+            width: 150px;
+        }
+
+        /* GRAPH 2 CSS */
+        .expo-wrapper {
+            width: 100%;
+            height: 350px;
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .axis-label {
+            font-size: 12px;
+            fill: #666;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .curve-label {
+            font-size: 14px;
+            font-weight: bold;
+            fill: #002552;
+        }
+
+        .red-label {
+            fill: #E4002B;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        /* CARDS */
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+            border-top: 1px solid #eee;
+            padding-top: 2rem;
+        }
+
+        .insight-card {
+            background: #f8fafc;
+            padding: 2rem;
+            border-radius: 8px;
+            border-left: 5px solid #0050A0;
+        }
+
+        .insight-card h3 {
+            color: #002552;
+            margin: 0 0 1rem 0;
+            font-size: 1.3rem;
+        }
+
+        .insight-card p {
+            font-size: 1rem;
+            color: #4a5568;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .insight-highlight {
+            font-weight: 600;
+            color: #E4002B;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient-background"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">INPUT</a>
+            <a href="landscape.html" class="nav-link">LANDSCAPE</a>
+            <a href="opportunity.html" class="nav-link active">OPPORTUNITY</a>
+            <a href="focus.html" class="nav-link">FOCUS</a>
+            <a href="action.html" class="nav-link">ACTION</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="header">
+            <div class="logo-container">
+                <svg class="logo" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="20" cy="20" r="18" fill="#0050A0" />
+                    <text x="12" y="27" fill="white" font-size="20" font-weight="bold" font-family="Inter">A</text>
+                    <text x="45" y="25" fill="#0050A0" font-size="16" font-weight="600" font-family="Inter">Air</text>
+                    <text x="72" y="25" fill="#E4002B" font-size="16" font-weight="600"
+                        font-family="Inter">Liquide</text>
+                </svg>
+            </div>
+            <div class="team-badge">NCE Cluster Product Marketing</div>
+        </header>
+
+        <main class="main-content">
+            <div class="title-section">
+                <span class="eyebrow">PART 2: THE OPPORTUNITY</span>
+                <h1 class="main-title">The Gap & The Curve</h1>
+                <p class="subtitle">Why waiting is not an option.</p>
+            </div>
+
+            <div class="graphs-container">
+
+                <!-- GRAPH 1: THE OVERHANG -->
+                <div class="graph-section">
+                    <h2 class="graph-title">1. The "Overhang" Trap</h2>
+                    <div class="bar-chart-wrapper">
+                        <!-- Horizontal "Current State" Line -->
+                        <div
+                            style="position: absolute; bottom: 90px; left: 10%; right: 10%; border-top: 2px dashed #A4C8E1; z-index: 0;">
+                        </div>
+
+                        <!-- Bar Low -->
+                        <div class="bar-group" style="z-index: 1;">
+                            <span class="bar-percent">20%</span>
+                            <div class="bar bar-low"></div>
+                            <div class="bar-label"><strong>Perception</strong><br>Chatbots</div>
+                        </div>
+
+                        <!-- Bar High -->
+                        <div class="bar-group" style="z-index: 1;">
+                            <span class="bar-percent">100%</span>
+                            <div class="bar bar-high"></div>
+                            <div class="bar-label"><strong>Reality</strong><br>Automating entire workflows</div>
+                        </div>
+
+                        <!-- Bracket & Text -->
+                        <div class="gap-bracket"></div>
+                        <div class="gap-text" style="color: #E4002B; font-size: 1.4rem; font-weight: 800; top: 40%;">
+                            OPPORTUNITY<br>WIDE OPEN</div>
+                    </div>
+                    <div style="text-align: center; margin-top: 1rem; font-style: italic; color: #555;">
+                        "Differentiation = Implementation"
+                    </div>
+                </div>
+
+                <!-- GRAPH 2: EXPONENTIAL CURVE -->
+                <div class="graph-section">
+                    <h2 class="graph-title">2. Under the Hood</h2>
+                    <div class="expo-wrapper">
+                        <svg viewBox="0 0 400 300" style="width: 100%; height: 100%; overflow: visible;">
+                            <!-- Axes -->
+                            <line x1="40" y1="280" x2="380" y2="280" stroke="#ccc" stroke-width="2" /> <!-- X -->
+                            <line x1="40" y1="280" x2="40" y2="20" stroke="#ccc" stroke-width="2" /> <!-- Y -->
+
+                            <!-- The Curve -->
+                            <path d="M 40 275 C 200 275, 260 260, 320 20" fill="none" stroke="#E4002B"
+                                stroke-width="5" />
+
+                            <!-- Manual Data Points: Ant / Monkey / Human -->
+                            <!-- Ant -->
+                            <circle cx="80" cy="275" r="4" fill="#0050A0" opacity="0.6" />
+                            <text x="80" y="300" class="axis-label" text-anchor="middle">Ant</text>
+
+                            <!-- Monkey -->
+                            <circle cx="140" cy="272" r="4" fill="#0050A0" opacity="0.6" />
+                            <text x="140" y="300" class="axis-label" text-anchor="middle">Monkey</text>
+
+                            <!-- Human -->
+                            <circle cx="200" cy="265" r="4" fill="#0050A0" opacity="0.6" />
+                            <text x="200" y="300" class="axis-label" text-anchor="middle">Human</text>
+
+                            <!-- TODAY -->
+                            <line x1="240" y1="280" x2="240" y2="180" stroke="#002552" stroke-dasharray="4" />
+                            <text x="240" y="300" class="curve-label" text-anchor="middle">TODAY</text>
+                            <circle cx="240" cy="250" r="5" fill="#002552" />
+
+                            <!-- Future Label -->
+                            <text x="320" y="300" class="axis-label" text-anchor="middle">+2 Years</text>
+
+                            <!-- Vertical Text -->
+                            <text x="330" y="100" class="red-label" font-size="18">EXPONENTIAL</text>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- INSIGHTS SECTION (Reverted to Original Text) -->
+            <div class="insights-grid">
+
+                <!-- Concept 1: The Overhang -->
+                <div class="insight-card">
+                    <h3>🏚️ The Overhang (Gap)</h3>
+                    <p>We are using AI for "Chatbots" (20% capability). The tech is already capable of automating <span
+                            class="insight-highlight">100% of knowledge workflows</span>. The gap isn't technology; it's
+                        our implementation.</p>
+                </div>
+
+                <!-- Concept 2: Speed Multiplier -->
+                <div class="insight-card">
+                    <h3>⚡ 100 Years in Minutes (Speed)</h3>
+                    <p>Even if AI is only as smart as a human, it runs <strong>1,000x faster</strong>. It can execute
+                        <span class="insight-highlight">100 years of knowledge work</span> (reading, coding, planning)
+                        in a single afternoon.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- SECTION 3: THE DIFFERENTIATION (SHIFTING BELL CURVES) -->
+            <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #eee;">
+                <h2 class="graph-title">3. The Differentiation Strategy</h2>
+
+                <div style="display: flex; gap: 3rem; align-items: center;">
+
+                    <!-- 3 BELL CURVES VISUAL -->
+                    <div
+                        style="flex: 1; height: 350px; position: relative; background: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); padding: 1rem;">
+                        <svg viewBox="0 0 500 300" style="width: 100%; height: 100%; overflow: visible;">
+                            <!-- X Axis -->
+                            <line x1="20" y1="280" x2="480" y2="280" stroke="#ccc" stroke-width="2" />
+                            <text x="250" y="310" font-size="12" fill="#777" text-anchor="middle">Business Impact /
+                                Capability Ladder</text>
+
+                            <!-- CURVE 1: MESSER (Left - Purple) -->
+                            <!-- Centered at 150 -->
+                            <path d="M 50 280 Q 150 280 150 180 Q 150 80 200 80 Q 250 80 250 180 Q 250 280 350 280"
+                                fill="rgba(200, 160, 255, 0.2)" stroke="#9F7AEA" stroke-width="2"
+                                transform="translate(-80, 0)" />
+                            <!-- Peak Line -->
+                            <line x1="120" y1="80" x2="120" y2="280" stroke="#9F7AEA" stroke-dasharray="4" />
+                            <text x="120" y="60" font-size="12" font-weight="bold" fill="#9F7AEA"
+                                text-anchor="middle">Messer</text>
+
+                            <!-- CURVE 2: LINDE (Middle - Green) -->
+                            <!-- Centered at 250 -->
+                            <path d="M 50 280 Q 150 280 150 180 Q 150 80 200 80 Q 250 80 250 180 Q 250 280 350 280"
+                                fill="rgba(72, 187, 120, 0.2)" stroke="#48BB78" stroke-width="2"
+                                transform="translate(20, 0)" />
+                            <!-- Peak Line -->
+                            <line x1="220" y1="80" x2="220" y2="280" stroke="#48BB78" stroke-dasharray="4" />
+                            <text x="220" y="60" font-size="12" font-weight="bold" fill="#48BB78"
+                                text-anchor="middle">Linde</text>
+
+                            <!-- CURVE 3: AIR LIQUIDE (Right - Blue) -->
+                            <!-- Centered at 350 -->
+                            <path d="M 50 280 Q 150 280 150 180 Q 150 80 200 80 Q 250 80 250 180 Q 250 280 350 280"
+                                fill="rgba(0, 80, 160, 0.2)" stroke="#0050A0" stroke-width="3"
+                                transform="translate(140, 0)" />
+                            <!-- Peak Line -->
+                            <line x1="340" y1="80" x2="340" y2="280" stroke="#0050A0" stroke-dasharray="4" />
+                            <text x="340" y="60" font-size="14" font-weight="bold" fill="#0050A0"
+                                text-anchor="middle">Air Liquide</text>
+
+                            <!-- GAP ARROW -->
+                            <line x1="220" y1="150" x2="330" y2="150" stroke="#E4002B" stroke-width="2"
+                                marker-end="url(#arrowhead)" />
+                            <text x="275" y="140" font-size="12" font-weight="bold" fill="#E4002B"
+                                text-anchor="middle">WIDEN THE GAP</text>
+
+                            <defs>
+                                <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5"
+                                    orient="auto">
+                                    <polygon points="0 0, 10 3.5, 0 7" fill="#E4002B" />
+                                </marker>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <!-- NARRATIVE -->
+                    <div style="flex: 1;">
+                        <h3 style="color: #002552; margin-bottom: 1rem; font-size: 1.5rem;">Moving the Curve</h3>
+                        <p style="font-size: 1.1rem; color: #555; line-height: 1.6; margin-bottom: 1.5rem;">
+                            If we stabilize at "standard adoption", we remain in the middle of the pack. To win, we must
+                            <strong>accelerate up the capability ladder</strong>.
+                        </p>
+                        <div
+                            style="background: #e6f0fa; border-left: 4px solid #0050A0; padding: 1.5rem; border-radius: 4px;">
+                            <p style="margin: 0; color: #003366; font-weight: 600;">
+                                "The goal is not just adoption, but the velocity of evolution."
+                            </p>
+                            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: #003366;">
+                                By moving faster to advanced capabilities, we shift our entire performance curve to the
+                                right, leaving competition behind.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- SECTION 4: THE PERSONAL STAKE (IMAGES + LINK) -->
+            <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid #eee;">
+                <h2 class="graph-title">4. The Personal Stake</h2>
+
+                <!-- Images Container -->
+                <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+
+                    <div style="flex: 1; min-width: 300px; max-width: 500px; text-align: center;">
+                        <h4 style="color: #E4002B; margin-bottom: 1rem;">Most Exposed Roles</h4>
+                        <img src="assets/10 top replaced.png" alt="Top Replaced Jobs"
+                            style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    </div>
+
+                    <div style="flex: 1; min-width: 300px; max-width: 500px; text-align: center;">
+                        <h4 style="color: #0050A0; margin-bottom: 1rem;">Least Exposed Roles</h4>
+                        <img src="assets/Top not replaced.png" alt="Top Not Replaced Jobs"
+                            style="width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                    </div>
+
+                </div>
+
+                <!-- Link -->
+                <div style="text-align: center;">
+                    <a href="https://fortune.com/article/what-are-the-jobs-most-exposed-to-ai-microsoft-research/"
+                        target="_blank"
+                        style="color: #0050A0; font-size: 1.1rem; font-weight: 600; text-decoration: underline;">
+                        Read the full breakdown: Fortune / Microsoft Research
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- REMOVED FOOTER NAV CONTROLS -->
+
+        </main>
+
+        <footer class="footer">
+            <p>© 2026 NCE Cluster Product Marketing | AI Roadmap Initiative</p>
+        </footer>
+    </div>
+</body>
+
+</html>
